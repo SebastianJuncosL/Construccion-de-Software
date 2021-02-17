@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container1 {
+    color: white;
+    background-color: #25404b;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container2 {
+    color: white;
+    background-color: #b97d2d;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#menu {
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-items: auto;
+    justify-content: space-between;
+}
+
+.container3 {
+    align-content: center;
+    color: white;
+    background-color: #25404b;
+    align-items: center;
+}
+
+#boton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    shape-margin: none;
+    background-color: #b97d2d;
+    border: #b97d2d;
+}
