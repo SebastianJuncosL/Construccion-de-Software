@@ -10,33 +10,50 @@
     align-items: center;
 }
 
+#menu {
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+.navBar {
+    padding-left: 5%;
+}
+
 .container2 {
     color: white;
     background-color: #b97d2d;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 60px;
-}
-
-#menu {
-    color: white;
-    display: flex;
-    list-style: none;
-    justify-items: auto;
-    justify-content: space-between;
+    padding: 5% 20%;
 }
 
 .container3 {
-    align-content: center;
+    justify-content: center;
     color: white;
     background-color: #25404b;
     align-items: center;
 }
 
 #boton {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     color: white;
-    shape-margin: none;
     background-color: #b97d2d;
     border: #b97d2d;
+}
+
+.imagenes {
+    height: 100;
+}
+
+.container4 {
+    padding: 25px;
+    justify-content: center;
+}
+
+.subcontainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    text-align: center;
 }
