@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+div{
+    border:1px solid black;
+    padding: 1em;
+}
+
+#layout{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "content content adds"
+    "content content adds"
+    "footer footer footer";
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+#one{
+    grid-area: header;
+}
+
+#two{
+    grid-area: content;
+}
+
+#three{
+    grid-area: adds;
+}
+
+#four{
+    grid-area: footer;
+}

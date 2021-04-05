@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* 1
+Uno
+1  2  3
+4  5  6
+*/
+#uno{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "one two three"
+    "four five six";
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#one
+{
+    background-color: aliceblue;
+}
+#two
+{
+    background-color: antiquewhite;
+}
+#three
+{
+    background-color: aqua;
+}
+#four
+{
+    background-color: aquamarine;
+}
+#five
+{
+    background-color: azure;
+}
+#six
+{
+    background-color: beige;
+}
+/* 2
+Dos
+1  1  2
+3  4  2
+*/
+#dos{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "one2 one2 two2"
+    "three2 four2 two2";
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#one2
+{
+    background-color: aliceblue;
+    grid-area: one2;
+}
+#two2
+{
+    background-color: antiquewhite;
+    grid-area: two2;
+}
+#three2
+{
+    background-color: aqua;
+    grid-area: three2;
+}
+#four2
+{
+    background-color: aquamarine;
+    grid-area: four2;
+}
+/* 3
+Tres
+1  1  1
+2  3  3
+4  4  4
+*/
+#tres{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "one3 one3 one3"
+    "two3 three3 three3"
+    "four3 four3 four3";
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#one3
+{
+    background-color: aliceblue;
+    grid-area: one3;
+}
+#two3
+{
+    background-color: antiquewhite;
+    grid-area: two3;
+}
+#three3
+{
+    background-color: aqua;
+    grid-area: three3;
+}
+#four3
+{
+    background-color: aquamarine;
+    grid-area: four3;
+}
+/* 4
+Cuatro
+1  1  2  2
+3  4  4  4
+5  5  5  5
+*/
+#cuatro{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "one4 one4 two4 two4"
+    "three4 four4 four4 four4"
+    "five4 five4 five4 five4";
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#one4
+{
+    background-color: aliceblue;
+    grid-area: one4;
+}
+#two4
+{
+    background-color: antiquewhite;
+    grid-area: two4;
+}
+#three4
+{
+    background-color: aqua;
+    grid-area: three4;
+}
+#four4
+{
+    background-color: aquamarine;
+    grid-area: four4;
+}
+#five4
+{
+    background-color: azure;
+    grid-area: five4;
+}
+/* 5
+Cinco
+1  2  3  4  5  6
+7  8  9  10 11 12
+13 14 15 16 17 18
+*/
+#cinco{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "one5 two5 three5 four5 five5 six5"
+    "seven5 eight5 nine5 ten5 eleven5 twelve5"
+    "thirteen5 fourteen5 fifteen5 sixteen5 seventeen5 eighteen5";
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#one5
+{
+    background-color: aliceblue;
+    grid-area: one5;
+}
+#two5
+{
+    background-color: antiquewhite;
+    grid-area: two5;
+}
+#three5
+{
+    background-color: aqua;
+    grid-area: three5;
+}
+#four5
+{
+    background-color: aquamarine;
+    grid-area: four5;
+}
+#five5
+{
+    background-color: azure;
+    grid-area: five5;
+}
+#six5
+{
+    background-color: beige;
+    grid-area: six5;
+}
+#seven5
+{
+    background-color: bisque;
+    grid-area: seven5;
+}
+#eight5
+{
+    background-color: darkgreen;
+    grid-area: eight5;
+}
+#nine5
+{
+    background-color: blanchedalmond;
+    grid-area: nine5;
+}
+#ten5
+{
+    background-color: blue;
+    grid-area: ten5;
+}
+#eleven5
+{
+    background-color: blueviolet;
+    grid-area: eleven5;
+}
+#twelve5
+{
+    background-color: brown;
+    grid-area: twelve5;
+}
+#thirteen5
+{
+    background-color: burlywood;
+    grid-area: thirteen5;
+}
+#fourteen5
+{
+    background-color: cadetblue;
+    grid-area: fourteen5;
+}
+#fifteen5
+{
+    background-color: chartreuse;
+    grid-area: fifteen5;
+}
+#sixteen5
+{
+    background-color: chocolate;
+    grid-area: sixteen5;
+}
+#seventeen5
+{
+    background-color: coral;
+    grid-area: seventeen5;
+}
+#eighteen5
+{
+    background-color: cornflowerblue;
+    grid-area: eighteen5;
+}
+/* 6
+Seis
+1  1  2  3
+4  5  6
+7  7  8  9
+7  7  10 
+11 11 11 12
+*/
+#seis{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "one6    one6    two6    three6"
+    "four6   five6   six6    ."
+    "seven6  seven6  eight6  nine6"
+    "seven6  seven6  ten6    ."
+    "eleven6 eleven6 eleven6 twelve6";
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#one6
+{
+    background-color: aliceblue;
+    grid-area: one6;
+}
+#two6
+{
+    background-color: antiquewhite;
+    grid-area: two6;
+}
+#three6
+{
+    background-color: aqua;
+    grid-area: three6;
+}
+#four6
+{
+    background-color: aquamarine;
+    grid-area: four6;
+}
+#five6
+{
+    background-color: azure;
+    grid-area: five6;
+}
+#six6
+{
+    background-color: beige;
+    grid-area: six6;
+}
+#seven6
+{
+    background-color: bisque;
+    grid-area: seven6;
+}
+#eight6
+{
+    background-color: darkgreen;
+    grid-area: eight6;
+}
+#nine6
+{
+    background-color: blanchedalmond;
+    grid-area: nine6;
+}
+#ten6
+{
+    background-color: blue;
+    grid-area: ten6;
+}
+#eleven6
+{
+    background-color: blueviolet;
+    grid-area: eleven6;
+}
+#twelve6
+{
+    background-color: brown;
+    grid-area: twelve6;
+}
+/* 7
+Siete
+1  1  2    2
+3  3  4.1  4.1
+3  3  4.2  4.3
+*/
+#siete{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "one7 one7 two7 two7"
+    "three7 three7 four7 four7"
+    "three7 three7 four7 four7";
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#one7
+{
+    background-color: aliceblue;
+    grid-area: one7;
+}
+#two7
+{
+    background-color: antiquewhite;
+    grid-area: two7;
+}
+#three7
+{
+    background-color: aqua;
+    grid-area: three7;
+}
+#four7
+{
+    height: 100fr;
+    display: grid;
+    background-color: aquamarine;
+    grid-area: four7;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "fourone fourone"
+    "fourtwo fourthree";
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#fourone
+{
+    background-color: fuchsia;
+    grid-area: fourone;
+}
+#fourtwo
+{
+    background-color: goldenrod;
+    grid-area: fourtwo;
+}
+#fourthree
+{
+    background-color: lightgreen;
+    grid-area: fourthree;
+}
+/* 8
+Ocho
+1  2  3  4  5  
+6  7  8  8  8
+9  9  9  9  9
+*/
+#ocho{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "one8 two8 three8 four8 five8"
+    "six8 seven8 eight8 eight8 eight8"
+    "nine8 nine8 nine8 nine8 nine8";
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#one8
+{
+    background-color: aliceblue;
+    grid-area: one8;
+}
+#two8
+{
+    background-color: antiquewhite;
+    grid-area: two8;
+}
+#three8
+{
+    background-color: aqua;
+    grid-area: three8;
+}
+#four8
+{
+    background-color: aquamarine;
+    grid-area: four8;
+}
+#five8
+{
+    background-color: azure;
+    grid-area: five8;
+}
+#six8
+{
+    background-color: beige;
+    grid-area: six8;
+}
+#seven8
+{
+    background-color: bisque;
+    grid-area: seven8;
+}
+#eight8
+{
+    background-color: darkgreen;
+    grid-area: eight8;
+}
+#nine8
+{
+    background-color: blanchedalmond;
+    grid-area: nine8;
+}
+/* 9
+Nueve
+1  1  1
+2  3  3
+2  4  5
+*/
+#nueve{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "one9 one9 one9"
+    "two9 three9 three9"
+    "two9 four9 five9";
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#one9
+{
+    background-color: aliceblue;
+    grid-area: one9;
+}
+#two9
+{
+    background-color: antiquewhite;
+    grid-area: two9;
+}
+#three9
+{
+    background-color: aqua;
+    grid-area: three9;
+}
+#four9
+{
+    background-color: aquamarine;
+    grid-area: four9;
+}
+#five9
+{
+    background-color: azure;
+    grid-area: five9;
+}
